@@ -1,27 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <audio id="audio" src="assets/song.mp3" preload="auto"></audio>
-
-    <button class="btn-82" style="display: block; background-color: black; color: white;">Play</button>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Play Button</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Assuming your CSS is in this file -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
     <button class="btn-82" id="play-button"><span>Play</span></button>
-    <audio id="audio" src="assets/song.mp3"></audio>
+    <audio id="audio" src="assets/song.mp3" preload="auto"></audio>
 
-    <script>
-        const playButton = document.getElementById('play-button');
-        const audio = document.getElementById('audio');
-
-        playButton.addEventListener('click', () => {
-            audio.play();
-        });
-    </script>
+    <script src="main.js"></script> <!-- Link to your main.js file -->
 </body>
 </html>
